@@ -1,0 +1,56 @@
+/* set margin so they don't become wierd */
+* {
+	margin: 0 auto;
+}
+
+/* set box sizing so the height and width become as intended and borders etc don't add to the sizing */
+* {
+	box-sizing: border-box;
+}
+
+/*set the root element from you can use rem values for sizing*/
+html {
+	font-size: 16px;
+}
+
+/*set the rules for different media types and screen sizes
+@media only screen and (min-width: 320px) and (max-width: 480px) and (min-resolution: 300dpi) {
+	body {
+	  font-size: 12px;
+	}
+  }*/
+
+  body {
+	background-color: black;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 21px;
+	color: gray;
+  }
+  
+  h1 {
+	font-family : Verdana;
+	font-weight : normal;
+	font-size : 50px;
+	color: white;
+	text-align : center;
+  }
+  
+  h2 {
+	  font-family : Verdana;
+	font-weight : 300;
+	font-size : 42px;
+	color: white;
+  }
+  
+  a {
+	color: Aquamarine;
+	font-size: 16px;
+  }
+  
+  .copyrightlogo {
+	text-align : right;
+	color: gray;
+  }
+
+  
